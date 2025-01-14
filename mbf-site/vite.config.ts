@@ -4,7 +4,7 @@ import viteTsconfigPaths from 'vite-tsconfig-paths'
 import mkcert from 'vite-plugin-mkcert'
 
 export default defineConfig({
-    base: process.env.BASE_URL ?? '/',
+    base: process.env.BASE_URL ?? '/ModsBeforeFriday',
     plugins: [react(), viteTsconfigPaths(), mkcert()],
     server: {    
         open: true,
